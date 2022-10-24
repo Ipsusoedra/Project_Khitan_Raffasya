@@ -1,0 +1,1404 @@
+:root {
+  /* font color */
+  --body-color: #fffae3;
+  --main-color: #b2ebc1;
+  --text-color: #05595b;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+  background-color: var(--body-color);
+}
+
+/* CSS INDEX START */
+.section-open {
+  background-image: url("/assets-wedd/image/main-img.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+.section-open .container .text-tengah {
+  height: 90vh;
+  position: relative;
+  z-index: 99;
+  color: var(--main-color);
+}
+.section-open .container .text-tengah .text-undangan {
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section-open .container .text-tengah .pasangan {
+  font-weight: 700;
+  font-size: 64px;
+}
+.section-open .container .text-tengah .text-ortu {
+  font-weight: 400;
+  font-size: 24px;
+}
+.section-open .container .text-tengah .btn-timer {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  font-weight: 700;
+}
+.section-open .container .text-filter {
+  height: 13rem;
+  width: 90vw;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.64) 81.77%);
+  filter: blur(15px);
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+}
+
+/* CSS INDEX END */
+/* CSS INVITATION START */
+.media-button {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  z-index: 1000;
+  overflow: hidden;
+}
+.media-button img {
+  width: 50%;
+}
+
+.navbar-kecil {
+  position: fixed;
+  z-index: 3;
+  align-items: center;
+  width: 26em;
+  height: 5em;
+  bottom: 0px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 black;
+  background-color: var(--main-color);
+}
+.navbar-kecil .isi-nav {
+  padding: 10px 30px;
+}
+
+.section-header {
+  width: 100%;
+  height: 50rem;
+  background-image: url(/assets-wedd/image/header-bg.svg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--main-color);
+  position: relative;
+  overflow: hidden;
+}
+.section-header .header-img {
+  height: 500px;
+  width: 500px;
+  background-image: url(/assets-wedd/image/header-img.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: absolute;
+  top: 1%;
+}
+.section-header .text-header {
+  position: absolute;
+  bottom: 20%;
+  z-index: 2;
+}
+.section-header .text-header .main-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section-header .text-header .name {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+}
+.section-header .text-header .parent {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.section-header .filter-header {
+  width: 1100px;
+  height: 201px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.64) 81.77%);
+  filter: blur(15px);
+  position: absolute;
+  bottom: 20%;
+}
+.section-header .header-vector1 {
+  background-image: url(/assets-wedd/image/vector-header-right.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  width: 172.74px;
+  height: 243.45px;
+  right: 30%;
+  top: 0;
+  z-index: 100;
+}
+.section-header .header-vector2 {
+  background-image: url(/assets-wedd/image/vector-header-left.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  width: 251px;
+  height: 360.24px;
+  left: 25%;
+  top: 0;
+  z-index: 100;
+}
+
+.invitation-section {
+  overflow: hidden;
+  position: relative;
+}
+.invitation-section .title-section {
+  font-weight: 700;
+  font-size: 48px;
+}
+.invitation-section .text-paragraph {
+  font-weight: 400;
+  font-size: 24px;
+}
+.invitation-section .subtitle-section {
+  font-weight: 600;
+  font-size: 36px;
+}
+.invitation-section .invitation-vector1 {
+  background-image: url(/assets-wedd/image/vector1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  width: 199px;
+  height: 199px;
+  left: 0;
+  top: 0;
+  z-index: -100;
+}
+.invitation-section .invitation-vector2 {
+  background-image: url(/assets-wedd/image/vector2.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  width: 199px;
+  height: 199px;
+  right: 0;
+  top: 0;
+  z-index: -100;
+}
+.invitation-section .invitation-vector3 {
+  background-image: url(/assets-wedd/image/vector3.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  width: 199px;
+  height: 199px;
+  right: 0;
+  top: 50%;
+  z-index: -100;
+}
+.invitation-section .invitation-vector4 {
+  background-image: url(/assets-wedd/image/vector4.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  width: 199px;
+  height: 199px;
+  right: 0;
+  bottom: 0;
+  z-index: -100;
+}
+.invitation-section .invitation-vector5 {
+  background-image: url(/assets-wedd/image/vector5.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  width: 199px;
+  height: 199px;
+  left: 0;
+  bottom: 0;
+  z-index: -100;
+}
+
+.reminder-section {
+  background-color: var(--main-color);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.reminder-section .text-reminder {
+  font-weight: 500;
+  font-size: 36px;
+}
+.reminder-section .date-reminder {
+  font-weight: 700;
+  font-size: 48px;
+}
+.reminder-section .reminder-vector {
+  background-image: url(/assets-wedd/image/vector6.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  width: 260.84px;
+  height: 160.1px;
+  left: 10%;
+  top: 20%;
+  z-index: -1;
+}
+
+.mengundang-section {
+  position: relative;
+}
+.mengundang-section .title-section {
+  font-weight: 700;
+  font-size: 48px;
+}
+.mengundang-section .text-paragraph {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 60px;
+}
+.mengundang-section .mengundang-vector1 {
+  background-image: url(/assets-wedd/image/vector7.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  position: absolute;
+  width: 215.72px;
+  height: 289.54px;
+  right: 0;
+  top: 10%;
+  z-index: -100;
+}
+.mengundang-section .mengundang-vector2 {
+  background-image: url(/assets-wedd/image/vector8.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: absolute;
+  width: 215.72px;
+  height: 289.54px;
+  right: 0;
+  bottom: 10%;
+  z-index: -100;
+}
+.mengundang-section .mengundang-vector3 {
+  background-image: url(/assets-wedd/image/vector9.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  position: absolute;
+  width: 215.72px;
+  height: 289.54px;
+  left: 0;
+  bottom: 10%;
+  z-index: -100;
+}
+.mengundang-section .mengundang-vector4 {
+  background-image: url(/assets-wedd/image/vector10.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  position: absolute;
+  width: 215.72px;
+  height: 289.54px;
+  left: 0;
+  top: 10%;
+  z-index: -100;
+}
+
+.entertainment-section {
+  position: relative;
+  overflow: hidden;
+}
+.entertainment-section .title-section {
+  font-weight: 700;
+  font-size: 48px;
+}
+.entertainment-section .content-entertainment {
+  position: relative;
+}
+.entertainment-section .content-entertainment .img-entertainment {
+  background-image: url(/assets-wedd/image/entertainment-img.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 796px;
+  border-radius: 50px;
+}
+.entertainment-section .content-entertainment .text-entertainment {
+  width: 100%;
+  height: 796px;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 50px;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 0;
+}
+.entertainment-section .content-entertainment .text-entertainment h1 {
+  color: var(--main-color);
+  transform: rotate(180deg);
+  font-weight: 700;
+  font-size: 96px;
+}
+.entertainment-section .entertainment-vector1 {
+  background-image: url(/assets-wedd/image/vector11.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  position: absolute;
+  width: 328.68px;
+  height: 183.85px;
+  right: 5%;
+  top: 15%;
+  z-index: 2;
+}
+.entertainment-section .entertainment-vector2 {
+  background-image: url(/assets-wedd/image/vector12.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  position: absolute;
+  width: 285.78px;
+  height: 142.98px;
+  right: 5%;
+  bottom: 0;
+  z-index: 2;
+}
+.entertainment-section .entertainment-vector3 {
+  background-image: url(/assets-wedd/image/vector13.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  position: absolute;
+  width: 285.78px;
+  height: 142.98px;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.entertainment-section .entertainment-vector4 {
+  background-image: url(/assets-wedd/image/vector14.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  position: absolute;
+  width: 367.11px;
+  height: 254px;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.protocol-section {
+  position: relative;
+  overflow: hidden;
+}
+.protocol-section .title-section {
+  font-weight: 700;
+  font-size: 48px;
+}
+.protocol-section .text-paragraph {
+  font-weight: 400;
+  font-size: 24px;
+}
+.protocol-section .protocol-vector1 {
+  background-image: url(/assets-wedd/image/vector15.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  position: absolute;
+  width: 191.59px;
+  height: 89.85px;
+  right: 0;
+  top: 10%;
+  z-index: -100;
+}
+.protocol-section .protocol-vector2 {
+  background-image: url(/assets-wedd/image/vector16.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: absolute;
+  width: 262.52px;
+  height: 226.3px;
+  right: 0;
+  bottom: 10%;
+  z-index: -100;
+}
+.protocol-section .protocol-vector3 {
+  background-image: url(/assets-wedd/image/vector17.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  position: absolute;
+  width: 262.52px;
+  height: 226.3px;
+  left: 0;
+  bottom: 10%;
+  z-index: -100;
+}
+.protocol-section .protocol-vector4 {
+  background-image: url(/assets-wedd/image/vector18.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  position: absolute;
+  width: 167.03px;
+  height: 81px;
+  left: 0;
+  top: 10%;
+  z-index: -100;
+}
+.protocol-section .protocol-vector5 {
+  background-image: url(/assets-wedd/image/vector-bg.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: absolute;
+  width: 883.72px;
+  height: 615.03px;
+  left: 20%;
+  top: 20%;
+  z-index: -100;
+}
+
+.location-section {
+  height: 1440px;
+  background-image: url(/assets-wedd/image/location-footer-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.location-section .title-section {
+  font-weight: 700;
+  font-size: 48px;
+}
+.location-section .text-paragraph {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 60px;
+}
+.location-section .subtitle-section {
+  font-weight: 600;
+  font-size: 36px;
+}
+.location-section .text-footer {
+  position: absolute;
+  bottom: 3%;
+}
+
+/* CSS INVITATION END */
+@media screen and (max-width: 991px) {
+  /* CSS INDEX START */
+  .section-open .container .text-tengah .text-undangan {
+    font-size: 20px;
+  }
+  .section-open .container .text-tengah .pasangan {
+    font-size: 36px;
+  }
+  .section-open .container .text-tengah .text-ortu {
+    font-size: 18px;
+  }
+  .section-open .container .text-tengah .btn-timer {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-weight: 700;
+  }
+  .section-open .container .text-filter {
+    height: 13rem;
+    width: 90vw;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.64) 81.77%);
+    filter: blur(15px);
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+  }
+  /* CSS INDEX END */
+  /* CSS INVITATION START */
+  .section-header {
+    width: 100%;
+    height: 50rem;
+    background-image: url(/assets-wedd/image/header-bg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--main-color);
+    position: relative;
+    overflow: hidden;
+  }
+  .section-header .header-img {
+    height: 400px;
+    width: 400px;
+    background-image: url(/assets-wedd/image/header-img.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+  }
+  .section-header .text-header {
+    position: absolute;
+    bottom: 20%;
+    z-index: 2;
+  }
+  .section-header .text-header .main-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .section-header .text-header .name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .section-header .text-header .parent {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+  }
+  .section-header .filter-header {
+    width: 1100px;
+    height: 201px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.64) 81.77%);
+    filter: blur(15px);
+    position: absolute;
+    bottom: 20%;
+  }
+  .section-header .header-vector1 {
+    background-image: url(/assets-wedd/image/vector-header-right.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 172.74px;
+    height: 243.45px;
+    right: 0;
+    top: 0;
+    z-index: 100;
+  }
+  .section-header .header-vector2 {
+    background-image: url(/assets-wedd/image/vector-header-left.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 251px;
+    height: 360.24px;
+    left: -20%;
+    top: 0;
+    z-index: 100;
+  }
+  .invitation-section {
+    overflow: hidden;
+    position: relative;
+  }
+  .invitation-section .title-section {
+    font-weight: 700;
+    font-size: 38px;
+  }
+  .invitation-section .text-paragraph {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .invitation-section .subtitle-section {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .invitation-section .invitation-vector1 {
+    background-image: url(/assets-wedd/image/vector1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 199px;
+    height: 199px;
+    left: 0;
+    top: 0;
+    z-index: -100;
+  }
+  .invitation-section .invitation-vector2 {
+    background-image: url(/assets-wedd/image/vector2.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 199px;
+    height: 199px;
+    right: 0;
+    top: 0;
+    z-index: -100;
+  }
+  .invitation-section .invitation-vector3 {
+    background-image: url(/assets-wedd/image/vector3.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 199px;
+    height: 199px;
+    right: 0;
+    top: 50%;
+    z-index: -100;
+  }
+  .invitation-section .invitation-vector4 {
+    background-image: url(/assets-wedd/image/vector4.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 150px;
+    height: 199px;
+    right: 0;
+    bottom: 10%;
+    z-index: -100;
+  }
+  .invitation-section .invitation-vector5 {
+    background-image: url(/assets-wedd/image/vector5.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 199px;
+    height: 199px;
+    left: 0;
+    bottom: 0;
+    z-index: -100;
+  }
+  .reminder-section {
+    background-color: var(--main-color);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .reminder-section .text-reminder {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .reminder-section .date-reminder {
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .reminder-section .reminder-vector {
+    background-image: url(/assets-wedd/image/vector6.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 260.84px;
+    height: 160.1px;
+    left: 10%;
+    top: 20%;
+    z-index: -1;
+  }
+  .mengundang-section {
+    position: relative;
+  }
+  .mengundang-section .title-section {
+    font-weight: 700;
+    font-size: 38px;
+  }
+  .mengundang-section .text-paragraph {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .mengundang-section .mengundang-vector1 {
+    background-image: url(/assets-wedd/image/vector7.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 215.72px;
+    height: 289.54px;
+    right: 0;
+    top: 10%;
+    z-index: -100;
+  }
+  .mengundang-section .mengundang-vector2 {
+    background-image: url(/assets-wedd/image/vector8.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    width: 215.72px;
+    height: 289.54px;
+    right: 0;
+    bottom: 10%;
+    z-index: -100;
+  }
+  .mengundang-section .mengundang-vector3 {
+    background-image: url(/assets-wedd/image/vector9.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 215.72px;
+    height: 289.54px;
+    left: 0;
+    bottom: 10%;
+    z-index: -100;
+  }
+  .mengundang-section .mengundang-vector4 {
+    background-image: url(/assets-wedd/image/vector10.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 215.72px;
+    height: 289.54px;
+    left: 0;
+    top: 10%;
+    z-index: -100;
+  }
+  .entertainment-section {
+    position: relative;
+    overflow: hidden;
+  }
+  .entertainment-section .title-section {
+    font-weight: 700;
+    font-size: 38px;
+  }
+  .entertainment-section .content-entertainment {
+    position: relative;
+  }
+  .entertainment-section .content-entertainment .img-entertainment {
+    background-image: url(/assets-wedd/image/entertainment-img.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+  }
+  .entertainment-section .content-entertainment .text-entertainment {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 50px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 0;
+  }
+  .entertainment-section .content-entertainment .text-entertainment h1 {
+    color: var(--main-color);
+    transform: rotate(180deg);
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .entertainment-section .entertainment-vector1 {
+    background-image: url(/assets-wedd/image/vector11.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 200px;
+    height: 183.85px;
+    right: 0;
+    top: 15%;
+    z-index: 2;
+  }
+  .entertainment-section .entertainment-vector2 {
+    background-image: url(/assets-wedd/image/vector12.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 142.98px;
+    right: 0;
+    bottom: 10%;
+    z-index: 2;
+  }
+  .entertainment-section .entertainment-vector3 {
+    background-image: url(/assets-wedd/image/vector13.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 142.98px;
+    left: -10%;
+    bottom: 0;
+    z-index: 2;
+  }
+  .entertainment-section .entertainment-vector4 {
+    background-image: url(/assets-wedd/image/vector14.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 254px;
+    left: 0;
+    top: 0;
+    z-index: 2;
+  }
+  .protocol-section {
+    position: relative;
+    overflow: hidden;
+  }
+  .protocol-section .title-section {
+    font-weight: 700;
+    font-size: 38px;
+  }
+  .protocol-section .text-paragraph {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .protocol-section .protocol-vector1 {
+    background-image: url(/assets-wedd/image/vector15.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 191.59px;
+    height: 89.85px;
+    right: 0;
+    top: 0;
+    z-index: -100;
+  }
+  .protocol-section .protocol-vector2 {
+    background-image: url(/assets-wedd/image/vector16.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 150px;
+    height: 226.3px;
+    right: 0;
+    bottom: 0;
+    z-index: -100;
+  }
+  .protocol-section .protocol-vector3 {
+    background-image: url(/assets-wedd/image/vector17.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 150px;
+    height: 226.3px;
+    left: 0;
+    bottom: 10%;
+    z-index: -100;
+  }
+  .protocol-section .protocol-vector4 {
+    background-image: url(/assets-wedd/image/vector18.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 167.03px;
+    height: 81px;
+    left: 0;
+    top: 10%;
+    z-index: -100;
+  }
+  .protocol-section .protocol-vector5 {
+    background-image: url(/assets-wedd/image/vector-bg.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    width: 883.72px;
+    height: 615.03px;
+    left: 20%;
+    top: 20%;
+    z-index: -100;
+  }
+  .location-section {
+    height: 1440px;
+    background-image: url(/assets-wedd/image/location-footer-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+  }
+  .location-section .title-section {
+    font-weight: 700;
+    font-size: 38px;
+  }
+  .location-section .text-paragraph {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+  }
+  .location-section .subtitle-section {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .location-section .text-footer {
+    position: absolute;
+    bottom: 3%;
+  }
+  /* CSS INVITATION END */
+}
+@media screen and (max-width: 551px) {
+  /* CSS INDEX START */
+  .section-open .container .text-tengah .text-undangan {
+    font-size: 20px;
+  }
+  .section-open .container .text-tengah .pasangan {
+    font-size: 24px;
+  }
+  .section-open .container .text-tengah .text-ortu {
+    font-size: 10px;
+  }
+  .section-open .container .text-tengah .btn-timer {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-weight: 700;
+  }
+  .section-open .container .text-filter {
+    height: 13rem;
+    width: 90vw;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.64) 81.77%);
+    filter: blur(15px);
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+  }
+  /* CSS INDEX END */
+  /* CSS INVITATION START */
+  .section-header {
+    width: 100%;
+    height: 50rem;
+    background-image: url(/assets-wedd/image/header-bg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--main-color);
+    position: relative;
+    overflow: hidden;
+  }
+  .section-header .header-img {
+    height: 350px;
+    width: 350px;
+    background-image: url(/assets-wedd/image/header-img.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+  }
+  .section-header .text-header {
+    position: absolute;
+    bottom: 20%;
+    z-index: 2;
+  }
+  .section-header .text-header .main-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .section-header .text-header .name {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .section-header .text-header .parent {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+  }
+  .section-header .filter-header {
+    width: 1100px;
+    height: 201px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.64) 81.77%);
+    filter: blur(15px);
+    position: absolute;
+    bottom: 20%;
+  }
+  .section-header .header-vector1 {
+    background-image: url(/assets-wedd/image/vector-header-right.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 100.74px;
+    height: 150.45px;
+    right: 0;
+    top: 0;
+    z-index: 100;
+  }
+  .section-header .header-vector2 {
+    background-image: url(/assets-wedd/image/vector-header-left.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 150px;
+    height: 200.24px;
+    left: 0;
+    top: 0;
+    z-index: 100;
+  }
+  .invitation-section {
+    overflow: hidden;
+    position: relative;
+  }
+  .invitation-section .title-section {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .invitation-section .text-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .invitation-section .subtitle-section {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .invitation-section .invitation-vector1 {
+    background-image: url(/assets-wedd/image/vector1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 199px;
+    left: 0;
+    top: 0;
+    z-index: -100;
+  }
+  .invitation-section .invitation-vector2 {
+    background-image: url(/assets-wedd/image/vector2.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 199px;
+    right: 0;
+    top: 0;
+    z-index: -100;
+  }
+  .invitation-section .invitation-vector3 {
+    background-image: url(/assets-wedd/image/vector3.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 199px;
+    height: 199px;
+    right: 0;
+    top: 50%;
+    z-index: -100;
+  }
+  .invitation-section .invitation-vector4 {
+    background-image: url(/assets-wedd/image/vector4.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 150px;
+    height: 199px;
+    right: 0;
+    bottom: 18%;
+    z-index: -100;
+  }
+  .invitation-section .invitation-vector5 {
+    background-image: url(/assets-wedd/image/vector5.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    width: 199px;
+    height: 199px;
+    left: 0;
+    bottom: 0;
+    z-index: -100;
+  }
+  .reminder-section {
+    background-color: var(--main-color);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .reminder-section .text-reminder {
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .reminder-section .date-reminder {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .reminder-section .reminder-vector {
+    background-image: url(/assets-wedd/image/vector6.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: -20%;
+    top: -10%;
+    z-index: -1;
+  }
+  .mengundang-section {
+    position: relative;
+  }
+  .mengundang-section .title-section {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .mengundang-section .text-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .mengundang-section .mengundang-vector1 {
+    background-image: url(/assets-wedd/image/vector7.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 289.54px;
+    right: 0;
+    top: 10%;
+    z-index: -100;
+  }
+  .mengundang-section .mengundang-vector2 {
+    background-image: url(/assets-wedd/image/vector8.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 289.54px;
+    right: 0;
+    bottom: 10%;
+    z-index: -100;
+  }
+  .mengundang-section .mengundang-vector3 {
+    background-image: url(/assets-wedd/image/vector9.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 289.54px;
+    left: 0;
+    bottom: 10%;
+    z-index: -100;
+  }
+  .mengundang-section .mengundang-vector4 {
+    background-image: url(/assets-wedd/image/vector10.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 289.54px;
+    left: 0;
+    top: 10%;
+    z-index: -100;
+  }
+  .entertainment-section {
+    position: relative;
+    overflow: hidden;
+  }
+  .entertainment-section .title-section {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .entertainment-section .content-entertainment {
+    position: relative;
+  }
+  .entertainment-section .content-entertainment .img-entertainment {
+    background-image: url(/assets-wedd/image/entertainment-img.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    border-radius: 50px;
+  }
+  .entertainment-section .content-entertainment .text-entertainment {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 50px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 0;
+  }
+  .entertainment-section .content-entertainment .text-entertainment h1 {
+    color: var(--main-color);
+    transform: rotate(180deg);
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .entertainment-section .entertainment-vector1 {
+    background-image: url(/assets-wedd/image/vector11.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 50px;
+    height: 183.85px;
+    right: 0;
+    top: 15%;
+    z-index: 2;
+  }
+  .entertainment-section .entertainment-vector2 {
+    background-image: url(/assets-wedd/image/vector12.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 50px;
+    height: 142.98px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+  .entertainment-section .entertainment-vector3 {
+    background-image: url(/assets-wedd/image/vector13.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 50px;
+    height: 142.98px;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+  .entertainment-section .entertainment-vector4 {
+    background-image: url(/assets-wedd/image/vector14.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 254px;
+    left: 0;
+    top: -10%;
+    z-index: 2;
+  }
+  .protocol-section {
+    position: relative;
+    overflow: hidden;
+  }
+  .protocol-section .title-section {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .protocol-section .text-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .protocol-section .protocol-vector1 {
+    background-image: url(/assets-wedd/image/vector15.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    width: 191.59px;
+    height: 89.85px;
+    right: 0;
+    top: 25%;
+    z-index: -100;
+  }
+  .protocol-section .protocol-vector2 {
+    background-image: url(/assets-wedd/image/vector16.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    bottom: 10%;
+    z-index: -100;
+  }
+  .protocol-section .protocol-vector3 {
+    background-image: url(/assets-wedd/image/vector17.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 0;
+    bottom: 10%;
+    z-index: -100;
+  }
+  .protocol-section .protocol-vector4 {
+    background-image: url(/assets-wedd/image/vector18.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    width: 167.03px;
+    height: 81px;
+    left: 0;
+    top: 10%;
+    z-index: -100;
+  }
+  .protocol-section .protocol-vector5 {
+    background-image: url(/assets-wedd/image/vector-bg.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    width: 883.72px;
+    height: 615.03px;
+    left: 20%;
+    top: 20%;
+    z-index: -100;
+  }
+  .location-section {
+    height: 1440px;
+    background-image: url(/assets-wedd/image/location-footer-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .location-section .title-section {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .location-section .text-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .location-section .subtitle-section {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .location-section .text-footer {
+    position: absolute;
+    bottom: 3%;
+  }
+  /* CSS INVITATION END */
+}/*# sourceMappingURL=main.css.map */
