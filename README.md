@@ -1,5 +1,3 @@
-# HTML + SCSS + JAVASCRIPT
-
 ## How to use
 ```
 git clone https://github.com/Ipsusoedra/ProjectWEB-Invitation.git
