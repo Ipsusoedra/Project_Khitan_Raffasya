@@ -2,10 +2,10 @@
 
 ## How to use
 ```
-git clone https://github.com/Ipsusoedra/ProjectWEB-khitan-invitation.git
+git clone https://github.com/Ipsusoedra/ProjectWEB-Invitation.git
 ```
 ```
-cd ProjectWEB-khitan-invitation
+cd ProjectWEB-Invitation
 ```
 Go To https://jazzy-longma-12155e.netlify.app/
 
